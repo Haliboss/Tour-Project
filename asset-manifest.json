@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Haliboss/tour-project/static/css/main.9e37f1fe.css",
+    "main.js": "/Haliboss/tour-project/static/js/main.cd4503c9.js",
+    "static/js/787.dfe17a71.chunk.js": "/Haliboss/tour-project/static/js/787.dfe17a71.chunk.js",
+    "index.html": "/Haliboss/tour-project/index.html",
+    "main.9e37f1fe.css.map": "/Haliboss/tour-project/static/css/main.9e37f1fe.css.map",
+    "main.cd4503c9.js.map": "/Haliboss/tour-project/static/js/main.cd4503c9.js.map",
+    "787.dfe17a71.chunk.js.map": "/Haliboss/tour-project/static/js/787.dfe17a71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e37f1fe.css",
+    "static/js/main.cd4503c9.js"
+  ]
+}
