@@ -1,0 +1,54 @@
+.content {
+  box-shadow: 10px 10px 10px rgb(5, 5, 5);
+  width: 50vh;
+  height: 50vh;
+  background-color: rgb(41, 51, 54);
+  color: white;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;  
+
+  h2 {
+    padding: .5rem;
+    height: 1rem;
+    font-size: 1.5rem;    
+    display: flex;
+    align-items: center;
+    margin: auto 0.5rem;
+    
+  }
+
+  img {
+    width: 98%;
+    height: 43vh;
+    padding: .5rem;
+    border-radius: 1.5rem;
+  }
+
+  marquee {
+    position: absolute;
+    display: none;
+    font-size: 1rem;
+    bottom: 1vh;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:9vh;
+    color: rgb(255, 255, 255); 
+  }
+
+  &:hover {
+    marquee {
+        display: block;
+    }
+
+    img {
+      filter: grayscale(100%);
+    } 
+  }  
+}
+
+

@@ -1,0 +1,27 @@
+.navbar {
+    margin: auto;
+    background-color: rgb(0, 121, 87);  
+    color: rgb(186, 186, 186);
+
+    .list {
+        display: flex;
+        list-style-type: none;
+        cursor: pointer;
+        justify-content:center;
+        text-transform: capitalize;
+
+        li {
+            margin: 0;
+            padding: 1rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+            transition: all .5s ease-in-out;
+            &:hover {
+                color: rgb(0, 0, 0);
+                background-color: #64e2e6;
+                border-top-right-radius: 1rem;
+                border-top-left-radius: 1rem;
+            }
+        }
+    }
+}

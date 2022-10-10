@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
+@import url("./navbar.scss");
+@import url("./header.scss");
+@import url("./card.scss");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    font-family: "Peralta", cursive;
+    background: linear-gradient(#64e2e6, #d34141);
+    .father {
+      .mother {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 2rem;
+      }
+    }
+  }
+}
